@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/img_unFunny"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Final_activity">
+
+    <EditText
+        android:id="@+id/ed_khoahoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Khóa Học"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ed_hocphi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Học Phí"
+        app:layout_constraintEnd_toEndOf="@+id/ed_khoahoc"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ed_khoahoc"
+        app:layout_constraintTop_toBottomOf="@+id/ed_khoahoc" />
+
+    <Button
+        android:id="@+id/ed_save"
+        android:layout_width="201dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="296dp"
+        android:text="Save"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ed_hocphi"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="@+id/ed_hocphi"
+        app:layout_constraintTop_toBottomOf="@+id/ed_hocphi"
+        app:layout_constraintVertical_bias="0.912" />
+
+    <Button
+        android:id="@+id/eds_back"
+        android:layout_width="205dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="156dp"
+        android:text="list course"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_save"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <Button
+        android:id="@+id/ed_update"
+        android:layout_width="205dp"
+        android:layout_height="55dp"
+        android:text="UPDATE"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eds_back"
+        app:layout_constraintVertical_bias="0.156" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="101dp"
+        android:text="CREATE NEW COURSE"
+        android:textColor="#048AF4"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.088" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

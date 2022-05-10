@@ -80,7 +80,7 @@ public class login extends AppCompatActivity {
                     startActivity(new Intent(getBaseContext(), list.class));
 
                 } else {
-                    Toast.makeText(login.this, "Login Fail! Check your password", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(login.this, "Login Fail! Check password and email of you", Toast.LENGTH_SHORT).show();
                 }
             }
         });

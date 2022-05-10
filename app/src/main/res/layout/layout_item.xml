@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="@color/purple_200"
+    android:id="@+id/card_hasil">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16sp"
+        android:layout_marginBottom="16sp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_khoahoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khóa học: Androi Studio"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:id="@+id/tv_hocphi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Học phí: 2340000 VND"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/hapus"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ti_xung_removebg_preview__1_"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="15dp"
+        />
+
+
+</androidx.cardview.widget.CardView>
